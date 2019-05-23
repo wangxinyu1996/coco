@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--设置视口-->
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <!--导入css-->
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <!--导入3个js,有顺序要求-->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!--不折叠的logo-->
+       <div class="navbar-brand d-md-none">
+           <a href="#">
+               <img src="img/logo.png">
+           </a>
+       </div>
+        <div class="navbar-brand d-md-none">
+            <a href="#">
+                <img src="img/contactHover.png">
+            </a>
+        </div>
+        <div class="navbar-brand d-md-none">
+            <a href="#">
+                <img src="img/earthHover.png">
+            </a>
+        </div>
+        <div class="navbar-brand d-md-none">
+            <a href="#">
+                <img src="img/land_icon.png">
+            </a>
+        </div>
+        <!--按钮上有三条线-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#content">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--折叠的导航-->
+        <div id="content" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <input class="w-25 form-control" placeholder="关键字搜索" type="serch"/>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">关于COCO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">COCO饮品</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">门店定位</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">合作经营</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
