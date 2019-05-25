@@ -1,0 +1,14 @@
+.nav-link{
+    color:#000 !important;
+}
+.nav-link:hover{
+    background:#FFC107;
+}
+#content{
+    height:5rem;
+    wight:100%;
+}
+/*µ¼º½À¸±³¾°ÑÕÉ«*/
+.bc{
+    background:#FFC107;
+}

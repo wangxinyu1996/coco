@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--设置视口-->
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <!--导入css-->
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <!--导入3个js,有顺序要求-->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/comm.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<!--header-->
+<header>
+    <iframe class="my_header" src="header.html" frameborder="0" scrolling="no"></iframe>
+</header>
+<div class="container">
+    <!--轮播图-->
+    <div id="nav" class="carousel" data-ride="carousel">
+        <!--轮播图片-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="w-100" src="img/1.jpg">
+            </div>
+            <div class="carousel-item">
+                <img class="w-100" src="img/2.jpg">
+            </div>
+            <div class="carousel-item">
+                <img class="w-100" src="img/3.jpg">
+            </div>
+            <div class="carousel-item">
+                <img class="w-100" src="img/4.jpg">
+            </div>
+            <div class="carousel-item">
+                <img class="w-100" src="img/5.jpg">
+            </div>
+        </div>
+        <!--左右箭头-->
+        <a data-slide="prev" class="carousel-control-prev" href="#nav">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a data-slide="prev" class="carousel-control-next" href="#nav">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+        <!--轮播指示器-->
+        <ul class="carousel-indicators">
+            <li data-target="#nav" data-slide-to="0" class="active"></li>
+            <li data-target="#nav" data-slide-to="1"></li>
+            <li data-target="#nav" data-slide-to="2"></li>
+            <li data-target="#nav" data-slide-to="3"></li>
+            <li data-target="#nav" data-slide-to="4"></li>
+        </ul>
+    </div>
+    <!--导航-->
+    `<div class="h-15 w-100 bg-warning border-warning my_navbar justify-content-center">
+        <button data-target="#tab1" data-toggle="collapse" class="btn btn-warning"><img src="img/10.png">合作经营</button>
+        <div id="tab1" class="collapse">线上申请</div>
+        <button data-target="#tab2" data-toggle="collapse" class="btn btn-warning"><img src="img/11.png">合作经营</button>
+        <div id="tab2" class="collapse">商品价目表</div>
+        <button data-target="#tab3" data-toggle="collapse" class="btn btn-warning"><img src="img/12.png">合作经营</button>
+        <div id="tab3" class="collapse">人力银行</div>
+    </div>
+    <!--推荐-->
+    <div class="my_bg_img">
+        <div>
+            <h1 class="recommend">推荐饮品</h1>
+        </div>
+        <div>
+            <h3 class="food">选择当季食材</h3>
+            <p class="know">一起了解CoCo 为您严选优质茶叶以及在地化采购季节鲜果并且不断创新研发严格食安控管所制成的健康茶饮!</p>
+        </div>
+        <ul class="list-unstyled d-flex justify-content-around p-4">
+            <li>
+                <a href="#">
+                    <img src="img/lemon_slice.png">
+                    <p class="text-center mt-2">柠檬片</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/pudding.png">
+                    <p class="text-center mt-2">布丁</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/coffee.png">
+                    <p class="text-center mt-2">现磨咖啡</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/milk.png">
+                    <p class="text-center mt-2">慕斯奶盖</p>
+                </a>
+            </li>
+        </ul>
+        <ul class="list-unstyled d-flex justify-content-around p-4">
+            <li>
+                <a href="#">
+                    <img src="img/green_lemon.png">
+                    <p class="text-center mt-2">柠檬</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/cow.png">
+                    <p class="text-center mt-2">牛奶</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/passion.png">
+                    <p class="text-center mt-2">百香果</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/bene.png">
+                    <p class="text-center mt-2">益菌多</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--最新消息-->
+    <div class="my_new">
+        <p class="text-center">最新消息</p>
+    </div>
+    <!--消息导航-->
+    <div class="h-25 w-100 bg-light">
+        <button data-target="#new" data-toggle="collapse" class="btn btn-warning navbar-toggler bc">
+            <img src="img/op_mag.png" alt=""/>
+        </button>
+        <div id="new" class="collapse mt-2">
+            <p class="new_text_bg"><a href="#" class="new_text">热门活动</a></p>
+            <p class="new_text_bg"><a href="#" class="new_text">商品快讯</a></p>
+            <p class="new_text_bg"><a href="#" class="new_text">公益活动</a></p>
+            <p class="new_text_bg"><a href="#" class="new_text">媒体报刊</a></p>
+        </div>
+    </div>
+    <!--导航下新闻及图片-->
+    <div class="mt-3">
+        <ul class="list-unstyled d-flex">
+            <li>
+                <div class="pr-2 pl-1"><a href="#">
+                    <img src="img/p1.jpg" class="w-100">
+                    <p class="text-center t_color">携手雨林联盟，一起守护生态家园</p>
+                </a>
+                </div>
+            </li>
+            <li>
+                <div class="pr-2">
+                    <a href="#">
+                        <img src="img/p2.jpg" class="w-100">
+                        <p class="text-center t_color">红果·出色季|像火龙果一样出色</p>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="pr-2">
+                    <a href="#">
+                        <img src="img/p3.jpg" class="w-100">
+                        <p class="text-center t_color">Pick一款“桃”气</p>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="pr-1">
+                    <a href="#">
+                        <img src="img/p4.jpg" class="w-100">
+                        <p class="text-center t_color">喝沙棘 捉熊熊</p>
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <ul class="list-unstyled d-flex">
+            <li>
+                <div class="pr-2 pl-1">
+                    <a href="#">
+                        <img src="img/p5.jpg" class="w-100">
+                        <p class="text-center t_color">定义你的2019新美好·让他告诉你...</p>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="pr-2">
+                    <a href="#">
+                        <img src="img/p6.jpg" class="w-100">
+                        <p class="text-center t_color">大师滴虑咖啡|一杯具有大师手冲基因的咖啡</p>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="pr-2">
+                    <a href="#">
+                        <img src="img/p7.jpg" class="w-100">
+                        <p class="text-center t_color">CoCo影院|映刻美好时光</p>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="pr-1">
+                    <a href="#">
+                        <img src="img/p8.jpg" class="w-100">
+                        <p class="text-center t_color">手机自助点单|轻松下单，免排队</p>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!--底部top-->
+    <div class="text-center">
+        <a href="#"><img src="img/top.png"></a>
+    </div>
+    <!--底部线条-->
+    <div class="border-warning bottom_solid"></div>
+
+</div>
+<!--footer-->
+<footer>
+    <iframe class="my_footer" src="footer.html" frameborder="0" scrolling="no"></iframe>
+</footer>
+</body>
+</html>

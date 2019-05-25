@@ -1,0 +1,110 @@
+/*手写媒体查询，控制iframe的宽高*/
+.my_header,.my_footer{width:100%;}
+@media screen and (min-width:992px){
+    .my_header{height:30rem;}
+    .my_footer{height:32rem;}
+}
+@media screen and (max-width:991px){
+    .my_header{height:20rem;}
+    .my_footer{height:35rem;}
+}
+/*轮播图*/
+.carousel-control-prev,
+.carousel-control-next{
+    width:4%;height:20%;
+    background:#c8cbcf;
+    border-radius:0.25rem;
+    top:40%;
+}
+.carousel-indicators li{
+    width:0.75rem;height:0.75rem;
+    background:#fff;
+    border-radius:50%;
+    margin:0 4px;
+}
+.carousel-indicators .active{
+    background-color:#FA8D14;
+}
+.carousel-indicators li:hover{
+    cursor:pointer;
+}
+.carousel-inner .carousel-item img{
+    width:100%;
+}
+@media screen and (min-width:992px){
+    .carousel{
+        margin-top:-350px;
+    }
+}
+@media screen and (max-width:991px) and (min-width:768px){
+    .carousel{
+        margin-top:-5px;
+    }
+}
+/*导航*/
+.my_navbar{
+    margin-top:-24px;
+}
+.my_logo{
+    margin-top:7px;
+}
+/*推荐*/
+.my_bg_img{
+    background: url("../img/backimg.png");
+    padding-top:80px;
+}
+.recommend{
+    color:#FF5B0C;
+    text-align:center;
+}
+.recommend{
+    font-size:55px;
+    margin-bottom:100px;
+}
+.food{
+    margin-top:-20px;
+    font-size:40px;
+    margin-bottom:50px;
+    text-align:left;
+    color:#FF5B0C;
+}
+.know{
+    font-size:20px;
+    color:#444;
+    margin-top:-20px;
+    margin-bottom:40px;
+}
+.list-unstyled>li>a>p{
+    color:#000;
+}
+/*最新消息*/
+.my_new{
+    background:url("../img/seasonBg.png") no-repeat;
+    height:200px;
+    background-position:center;
+}
+.my_new>p{
+    padding-top:75px;
+    font-size:35px;
+    color:#FF5B0C;
+}
+.new_text{
+    color:#000;
+}
+.new_text_bg:hover{
+    background:#FFC107;
+}
+/*最新消息下的导航*/
+.bc{
+    background:#FFC107;
+}
+/*导航下新闻及图片*/
+.t_color{
+    color:#000;
+    margin-top:5px;
+}
+/*底部线条*/
+.bottom_solid{
+    border:3px solid #FF5B0C;
+    margin-bottom:20px;
+}
