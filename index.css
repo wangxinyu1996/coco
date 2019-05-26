@@ -5,7 +5,7 @@
     .my_footer{height:32rem;}
 }
 @media screen and (max-width:991px){
-    .my_header{height:20rem;}
+    .my_header{height:5rem;}
     .my_footer{height:35rem;}
 }
 /*轮播图*/
@@ -43,10 +43,19 @@
 }
 /*导航*/
 .my_navbar{
-    margin-top:-24px;
+    /*margin-top:-24px;*/
 }
 .my_logo{
-    margin-top:7px;
+    /*margin-top:7px;*/
+}
+.a{
+    display:flex;
+    list-style:none;
+}
+.h{height:100%;}
+/*.hh{height:40px;}*/
+.collapse.show {
+    visibility:visible;
 }
 /*推荐*/
 .my_bg_img{
@@ -77,6 +86,23 @@
 .list-unstyled>li>a>p{
     color:#000;
 }
+/*推荐下面的图片及文字动态*/
+/*图1*/
+.magnify{
+    transition:transform 1s;
+}
+.magnify:hover{
+    transform:scale(1.3);
+}
+/*文字1*/
+.recommend_text{
+    transition:transform 1s;
+}
+.recommend_text:hover{
+    transform:scale(1.3);
+    color:#FF5B0C;
+}
+
 /*最新消息*/
 .my_new{
     background:url("../img/seasonBg.png") no-repeat;
@@ -88,13 +114,20 @@
     font-size:35px;
     color:#FF5B0C;
 }
+/*最新消息动态*/
+.news_text{
+    transition:transform 1s;
+}
+.news_text:hover{
+    transform:scale(1.1);
+}
+/*最新消息下的导航*/
 .new_text{
     color:#000;
 }
 .new_text_bg:hover{
     background:#FFC107;
 }
-/*最新消息下的导航*/
 .bc{
     background:#FFC107;
 }
@@ -103,6 +136,14 @@
     color:#000;
     margin-top:5px;
 }
+/*导航图片动态及文字变色*/
+.p_d{
+    transition:1s;
+}
+.p_d:hover{
+    border-radius:50%;
+}
+
 /*底部线条*/
 .bottom_solid{
     border:3px solid #FF5B0C;

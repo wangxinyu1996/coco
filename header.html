@@ -11,54 +11,40 @@
     <script src="../js/jquery.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/header - ok.css"/>
 </head>
-<body>
+<body style="background:transparent;">
 <div class="container">
-    <!--折叠导航-->
-    <div class="navbar navbar-expand-xxl navbar-dark my_logo_color mt-3 bg-light">
-        <!--不折叠的logo-->
-        <div class="navbar-brand">
-            <a href="#">
-                <img src="img/logo.png">
-            </a>
-        </div>
-        <div class="navbar-brand">
-            <a href="#">
-                <img src="img/contactHover.png">
-            </a>
-        </div>
-        <div class="navbar-brand ">
-            <a href="#">
-                <img src="img/earthHover.png">
-            </a>
-        </div>
-        <!--按钮上有三条线-->
+    <div class="navbar navbar-expand-xxl navbar-dark mt-3">
         <div>
-            <button class="navbar-toggler bc btn btn-warning" data-toggle="collapse" data-target="#content">
+            <a href="#"><img src="img/logo.png"></a>
+        </div>
+        <div>
+            <a href="#"><img src="img/contactHover.png"></a>
+        </div>
+        <div>
+            <a href="#"><img src="img/earthHover.png"></a>
+        </div>
+        <div>
+            <button data-target="#text" data-toggle="collapse" class="btn btn-warning navbar-toggler bc">
                 <img src="img/op_mag.png">
             </button>
-        <!--折叠的导航-->
-        <div id="content" class="collapse navbar-collapse ">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <input class="w-75 form-control" placeholder="关键字搜索" type="serch"/>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">关于COCO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">COCO饮品</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">门店定位</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">合作经营</a>
-                    </li>
-                </ul>
         </div>
-        </div>
+    </div>
+    <div id="text" class="collapse">
+        <input class="w-25 form-control" placeholder="关键字搜索" type="text"/>
+        <p>
+            <a class="nav-link" href="#">关于COCO</a>
+        </p>
+        <p>
+            <a class="nav-link" href="#">COCO饮品</a>
+        </p>
+        <p>
+            <a class="nav-link" href="#">门店定位</a>
+        </p>
+        <p>
+            <a class="nav-link" href="#">合作经营</a>
+        </p>
     </div>
 </div>
 </body>

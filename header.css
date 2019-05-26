@@ -1,12 +1,9 @@
+/*下拉菜单字体颜色及背景*/
 .nav-link{
     color:#000 !important;
 }
 .nav-link:hover{
     background:#FFC107;
-}
-#content{
-    height:5rem;
-    wight:100%;
 }
 /*导航栏背景颜色*/
 .bc{

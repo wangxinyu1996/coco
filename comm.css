@@ -1,4 +1,7 @@
 a{text-decoration:none}
+a:hover{
+    text-decoration:none;
+}
 *{margin:0;padding:0;}
 /*所有样式*/
 #bg{border:1px solid #f00;

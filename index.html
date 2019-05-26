@@ -17,11 +17,11 @@
 <body>
 <!--header-->
 <header>
-    <iframe class="my_header" src="header.html" frameborder="0" scrolling="no"></iframe>
+    <iframe style="position:absolute;top:0;z-index:100;width:100%;height:100%;"
+            class="my_header" src="header.html" frameborder="0" scrolling="no"></iframe>
 </header>
-<div class="container">
     <!--轮播图-->
-    <div id="nav" class="carousel" data-ride="carousel">
+    <div id="nav" class="carousel" data-ride="carousel" style="margin-top:120px;">
         <!--轮播图片-->
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -57,13 +57,25 @@
         </ul>
     </div>
     <!--导航-->
-    `<div class="h-15 w-100 bg-warning border-warning my_navbar justify-content-center">
-        <button data-target="#tab1" data-toggle="collapse" class="btn btn-warning"><img src="img/10.png">合作经营</button>
-        <div id="tab1" class="collapse">线上申请</div>
-        <button data-target="#tab2" data-toggle="collapse" class="btn btn-warning"><img src="img/11.png">合作经营</button>
-        <div id="tab2" class="collapse">商品价目表</div>
-        <button data-target="#tab3" data-toggle="collapse" class="btn btn-warning"><img src="img/12.png">合作经营</button>
-        <div id="tab3" class="collapse">人力银行</div>
+    <div class="a border-warning">
+        <div class="w-50 bg-warning h">
+            <button data-target="#tab1" data-toggle="collapse" class="btn btn-warning h-100">
+                <img src="img/10.png">合作经营
+            </button>
+            <div id="tab1" class="collapse">线上申请</div>
+        </div>
+        <div class="w-50 bg-warning h">
+            <button data-target="#tab2" data-toggle="collapse" class="btn btn-warning h-100">
+                <img src="img/12.png">饮品
+            </button>
+            <div id="tab2" class="collapse">商品价目表</div>
+        </div>
+        <div class="w-50 bg-warning h">
+            <button data-target="#tab3" data-toggle="collapse" class="btn btn-warning h-100">
+                <img src="img/10.png">伙伴招募
+            </button>
+            <div id="tab3" class="collapse">人力银行</div>
+        </div>
     </div>
     <!--推荐-->
     <div class="my_bg_img">
@@ -77,59 +89,59 @@
         <ul class="list-unstyled d-flex justify-content-around p-4">
             <li>
                 <a href="#">
-                    <img src="img/lemon_slice.png">
-                    <p class="text-center mt-2">柠檬片</p>
+                    <img class="magnify" src="img/lemon_slice.png">
+                    <p class="text-center mt-2 recommend_text">柠檬片</p>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="img/pudding.png">
-                    <p class="text-center mt-2">布丁</p>
+                    <img class="magnify" src="img/pudding.png">
+                    <p class="text-center mt-2 recommend_text">布丁</p>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="img/coffee.png">
-                    <p class="text-center mt-2">现磨咖啡</p>
+                    <img class="magnify" src="img/coffee.png">
+                    <p class="text-center mt-2 recommend_text">现磨咖啡</p>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="img/milk.png">
-                    <p class="text-center mt-2">慕斯奶盖</p>
+                    <img class="magnify" src="img/milk.png">
+                    <p class="text-center mt-2 recommend_text">慕斯奶盖</p>
                 </a>
             </li>
         </ul>
         <ul class="list-unstyled d-flex justify-content-around p-4">
             <li>
                 <a href="#">
-                    <img src="img/green_lemon.png">
-                    <p class="text-center mt-2">柠檬</p>
+                    <img class="magnify" src="img/green_lemon.png">
+                    <p class="text-center mt-2 recommend_text">柠檬</p>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="img/cow.png">
-                    <p class="text-center mt-2">牛奶</p>
+                    <img class="magnify" src="img/cow.png">
+                    <p class="text-center mt-2 recommend_text">牛奶</p>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="img/passion.png">
-                    <p class="text-center mt-2">百香果</p>
+                    <img class="magnify" src="img/passion.png">
+                    <p class="text-center mt-2 recommend_text">百香果</p>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="img/bene.png">
-                    <p class="text-center mt-2">益菌多</p>
+                    <img class="magnify" src="img/bene.png">
+                    <p class="text-center mt-2 recommend_text">益菌多</p>
                 </a>
             </li>
         </ul>
     </div>
     <!--最新消息-->
     <div class="my_new">
-        <p class="text-center">最新消息</p>
+        <p class="text-center news_text">最新消息</p>
     </div>
     <!--消息导航-->
     <div class="h-25 w-100 bg-light">
@@ -148,7 +160,7 @@
         <ul class="list-unstyled d-flex">
             <li>
                 <div class="pr-2 pl-1"><a href="#">
-                    <img src="img/p1.jpg" class="w-100">
+                    <img src="img/p1.jpg" class="w-100 p_d">
                     <p class="text-center t_color">携手雨林联盟，一起守护生态家园</p>
                 </a>
                 </div>
@@ -156,7 +168,7 @@
             <li>
                 <div class="pr-2">
                     <a href="#">
-                        <img src="img/p2.jpg" class="w-100">
+                        <img src="img/p2.jpg" class="w-100 p_d">
                         <p class="text-center t_color">红果·出色季|像火龙果一样出色</p>
                     </a>
                 </div>
@@ -164,7 +176,7 @@
             <li>
                 <div class="pr-2">
                     <a href="#">
-                        <img src="img/p3.jpg" class="w-100">
+                        <img src="img/p3.jpg" class="w-100 p_d">
                         <p class="text-center t_color">Pick一款“桃”气</p>
                     </a>
                 </div>
@@ -172,7 +184,7 @@
             <li>
                 <div class="pr-1">
                     <a href="#">
-                        <img src="img/p4.jpg" class="w-100">
+                        <img src="img/p4.jpg" class="w-100 p_d">
                         <p class="text-center t_color">喝沙棘 捉熊熊</p>
                     </a>
                 </div>
@@ -182,7 +194,7 @@
             <li>
                 <div class="pr-2 pl-1">
                     <a href="#">
-                        <img src="img/p5.jpg" class="w-100">
+                        <img src="img/p5.jpg" class="w-100 p_d">
                         <p class="text-center t_color">定义你的2019新美好·让他告诉你...</p>
                     </a>
                 </div>
@@ -190,7 +202,7 @@
             <li>
                 <div class="pr-2">
                     <a href="#">
-                        <img src="img/p6.jpg" class="w-100">
+                        <img src="img/p6.jpg" class="w-100 p_d">
                         <p class="text-center t_color">大师滴虑咖啡|一杯具有大师手冲基因的咖啡</p>
                     </a>
                 </div>
@@ -198,7 +210,7 @@
             <li>
                 <div class="pr-2">
                     <a href="#">
-                        <img src="img/p7.jpg" class="w-100">
+                        <img src="img/p7.jpg" class="w-100 p_d">
                         <p class="text-center t_color">CoCo影院|映刻美好时光</p>
                     </a>
                 </div>
@@ -206,7 +218,7 @@
             <li>
                 <div class="pr-1">
                     <a href="#">
-                        <img src="img/p8.jpg" class="w-100">
+                        <img src="img/p8.jpg" class="w-100 p_d">
                         <p class="text-center t_color">手机自助点单|轻松下单，免排队</p>
                     </a>
                 </div>

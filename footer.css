@@ -1,5 +1,35 @@
+/*µ×²¿Ã½Ìå²éÑ¯*/
 @media screen and (min-width:992px){
     .bootom_left{
         margin-top:50px;
     }
+}
+/*Í¼Æ¬ÐüÍ£Ê±¶¯Ì¬*/
+.n_1>.f_2{
+    display:none;
+}
+.n_1:hover>.f_2{
+    display:block;
+}
+.n_1:hover>.f_1{
+    display:none;
+}
+.n_2>.f_4{
+    display:none;
+}
+.n_2:hover>.f_4{
+    display:block;
+}
+.n_2:hover>.f_3{
+    display:none;
+}
+.n_3>.f_6{
+    display:none;
+}
+.n_3:hover>.f_6{
+    display:block;
+}
+.n_3:hover>.f_5{
+    display:none;
+}
 }
