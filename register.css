@@ -1,0 +1,26 @@
+/*±³¾°Í¼*/
+.register_bg_img{
+    background:url("../img/rainbow.png") no-repeat center;
+    background-size:cover;
+    height:630px;
+    margin-top:100px;
+}
+/*Í¸Ã÷±³¾°Í¼*/
+.register_user{
+    background:#fff;
+    opacity:0.5;
+    height:500px;
+    width:450px;
+    border:1px solid transparent;
+    right:-345px;
+    bottom:-100px;
+}
+/*×ÖÌåºÚÉ«*/
+.register_user_rgba{
+    color:#000;
+    rgba(0,0,0,1);
+}
+/*±êÌâĞŞÊÎ*/
+.title_fz{
+    font-size:30px;
+}

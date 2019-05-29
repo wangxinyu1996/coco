@@ -1,13 +1,3 @@
-/*手写媒体查询，控制iframe的宽高*/
-.my_header,.my_footer{width:100%;}
-@media screen and (min-width:992px){
-    .my_header{height:30rem;}
-    .my_footer{height:32rem;}
-}
-@media screen and (max-width:991px){
-    .my_header{height:5rem;}
-    .my_footer{height:35rem;}
-}
 /*轮播图*/
 .carousel-control-prev,
 .carousel-control-next{
@@ -53,7 +43,6 @@
     list-style:none;
 }
 .h{height:100%;}
-/*.hh{height:40px;}*/
 .collapse.show {
     visibility:visible;
 }

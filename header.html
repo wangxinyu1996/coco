@@ -11,40 +11,34 @@
     <script src="../js/jquery.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/header - ok.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
 </head>
 <body style="background:transparent;">
 <div class="container">
-    <div class="navbar navbar-expand-xxl navbar-dark mt-3">
-        <div>
-            <a href="#"><img src="img/logo.png"></a>
+    <div id="header_coco">
+        <div class="navbar navbar-expand-xxl navbar-dark mt-3">
+            <div>
+                <a href="#"><img src="img/logo.png"></a>
+            </div>
+            <div>
+                <a href="#"><img src="img/contactHover.png"></a>
+            </div>
+            <div>
+                <a href="#"><img src="img/earthHover.png"></a>
+            </div>
+            <div>
+                <button data-target="#text" data-toggle="collapse" class="btn btn-warning navbar-toggler bc">
+                    <img src="img/op_mag.png">
+                </button>
+            </div>
         </div>
-        <div>
-            <a href="#"><img src="img/contactHover.png"></a>
+        <div id="text" class="collapse">
+            <input class="w-50 form-control" placeholder="关键字搜索" type="text"/>
+                <a class="nav-link p-1" href="#">用户登录</a>
+                <a class="nav-link p-1" href="#">关于COCO</a>
+                <a class="nav-link p-1" href="#">COCO饮品</a>
+                <a class="nav-link p-1" href="#">合作经营</a>
         </div>
-        <div>
-            <a href="#"><img src="img/earthHover.png"></a>
-        </div>
-        <div>
-            <button data-target="#text" data-toggle="collapse" class="btn btn-warning navbar-toggler bc">
-                <img src="img/op_mag.png">
-            </button>
-        </div>
-    </div>
-    <div id="text" class="collapse">
-        <input class="w-25 form-control" placeholder="关键字搜索" type="text"/>
-        <p>
-            <a class="nav-link" href="#">关于COCO</a>
-        </p>
-        <p>
-            <a class="nav-link" href="#">COCO饮品</a>
-        </p>
-        <p>
-            <a class="nav-link" href="#">门店定位</a>
-        </p>
-        <p>
-            <a class="nav-link" href="#">合作经营</a>
-        </p>
     </div>
 </div>
 </body>

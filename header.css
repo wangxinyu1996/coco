@@ -5,7 +5,14 @@
 .nav-link:hover{
     background:#FFC107;
 }
+#header_coco{
+    width:80%;
+    background:#fff;
+}
 /*µ¼º½À¸±³¾°ÑÕÉ«*/
 .bc{
     background:#FFC107;
+}
+.text:target{
+    display:block !important ;
 }

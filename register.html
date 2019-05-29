@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--设置视口-->
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <!--导入css-->
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <!--导入3个js,有顺序要求-->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/comm.css"/>
+    <link rel="stylesheet" href="css/register.css"/>
+</head>
+<body>
+<!--header-->
+<header>
+    <iframe style="position:absolute;top:0;z-index:100;width:100%;height:240px;"
+            class="my_header" src="header.html" frameborder="0" scrolling="no"></iframe>
+</header>
+<div class="container">
+    <div class="register_bg_img">
+        <div class="register_user text-center position-relative">
+                <div class="mt-2 title_fz">
+                    注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;册
+                </div>
+                <div class="mt-3 register_user_rgba">
+                    用户姓名：<input placeholder="您的姓名" type="name"/>
+                </div>
+                <div class="mt-4 register_user_rgba">
+                    用户性别：<input placeholder="您的性别" type="gender"/>
+                </div>
+                <div class="mt-4 register_user_rgba">
+                    用户密码：<input placeholder="您的密码" type="password"/>
+                </div>
+                <div class="mt-4 register_user_rgba">
+                    用户电话：<input placeholder="您的电话" type="phone"/>
+                </div>
+                <div class="mt-4 register_user_rgba">
+                    用户邮箱：<input placeholder="您的邮箱" type="email"/>
+                </div>
+                <div class="mt-4 register_user_rgba">
+                    用户地址：<input placeholder="您的地址" type="address"/>
+                </div>
+                <div class="text-center mt-5 register_user_rgba">
+                    <input class="btn btn-success" type="submit" value="注册"/>
+                    <input class="btn btn-danger ml-5" type="submit" value="取消"/>
+                </div>
+        </div>
+    </div>
+
+</div>
+<!--footer-->
+<footer>
+    <iframe class="my_footer mt-5" src="footer.html" frameborder="0" scrolling="no"></iframe>
+</footer>
+</body>
+</html>
