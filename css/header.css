@@ -1,0 +1,27 @@
+.header_center{
+    margin:auto;
+}
+/*下拉菜单字体颜色及背景*/
+.nav-link{
+    color:#000 !important;
+}
+.nav-link:hover{
+    background:#FFC107;
+}
+#header_coco{
+    width:80%;
+    background:#fff;
+    margin:auto;
+    margin-bottm:-10px;
+}
+/*导航栏背景颜色*/
+.bc{
+    background:#FFC107;
+}
+.text:target{
+    display:block !important ;
+}
+/*字体黑色*/
+.enter_color{
+    color:rgba(0,0,0,1);
+}

@@ -1,0 +1,113 @@
+/*背景图*/
+.list_bg{
+    background:url("../img/list_bg.png") no-repeat center;
+    background-size:cover;
+    height:550px;
+    width:100%;
+    margin-top:100px;
+}
+/*媒体查询*/
+@media screen and (max-width:991px) and (min-width:768px){
+    .list_bg{
+        height:300px;
+        width:700px;
+    }
+}
+@media screen and (max-width:767px){
+    .list_bg{
+        height:250px;
+        width:500px;
+    }
+}
+/*coco_title标题*/
+.coco_title{
+    margin-top:40px;
+}
+/*coco_title标题放大*/
+.coco_title_big{
+    transtion:transform 1s;
+}
+.coco_title_big:hover{
+    transform:scale(1.3);
+}
+/*coco标题右边图片*/
+.list_title_img1{
+    margin-top:-80px;
+    margin-right:130px;
+}
+/*商品*/
+.place{
+     margin-left:170px;
+ }
+.place1{
+    margin-left:150px;
+}
+.place2{
+     margin-left:165px;
+}
+.place3{
+    margin-left:175px;
+}
+.place4{
+    margin-left:155px;
+}
+.place5{
+    margin-left:140px;
+}
+.place6{
+    margin-left:150px;
+}
+.place7{
+    margin-left:175px;
+}
+.place8{
+    margin-left:165px;
+}
+.place9{
+    margin-left:165px;
+}
+.place10{
+    margin-left:165px;
+}
+.place11{
+    margin-left:155px;
+}
+.place12{
+    margin-left:175px;
+}
+.place13{
+    margin-left:160px;
+}
+.place14{
+    margin-left:180px;
+}
+.place15{
+    margin-left:170px;
+}
+.place16{
+    margin-left:185px;
+}
+.place18{
+    margin-left:180px;
+}
+/*商品图片及文字效果*/
+.largen{
+    transition:transform 1s;
+}
+.largen:hover{
+    transform:scale(1.1);
+}
+.list_text{
+    transition:transform 1s;
+}
+.list_text:hover{
+    transform:scale(1.1);
+}
+.list_text>a:hover{
+    color:#FF5B0C !important;
+}
+/*底部线条*/
+.bottom_solid{
+    border:3px solid #FF5B0C;
+    margin-bottom:70px;
+}

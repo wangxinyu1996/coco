@@ -1,0 +1,162 @@
+/*轮播图*/
+.carousel-control-prev,
+.carousel-control-next{
+    width:4%;height:20%;
+    background:#c8cbcf;
+    border-radius:0.25rem;
+    top:40%;
+}
+.carousel-indicators li{
+    width:0.75rem;height:0.75rem;
+    background:#fff;
+    border-radius:50%;
+    margin:0 4px;
+}
+.carousel-indicators .active{
+    background-color:#FA8D14;
+}
+.carousel-indicators li:hover{
+    cursor:pointer;
+}
+.carousel-inner .carousel-item img{
+    width:100%;
+}
+@media screen and (min-width:992px){
+    .carousel{
+        margin-top:-350px;
+    }
+}
+@media screen and (max-width:991px) and (min-width:768px){
+    .carousel{
+        margin-top:-5px;
+    }
+}
+/*登录背景图*/
+.enter{
+    border:1px solid transparent;
+    background:#fff;
+    opacity:0.8;
+    height:250px;
+    width:888px;
+    border-radius:0.8rem;
+    position:fixed;
+    right:25%;
+    bottom:45%;
+    border-radius:0.8rem;
+    z-index:100;
+}
+.enter_color{
+    margin-top:55px;
+    margin-left:145px;
+}
+#into{
+    display:none;
+}
+#into:target{
+    display:block;
+}
+/*导航*/
+.my_navbar{
+    /*margin-top:-24px;*/
+}
+.my_logo{
+    /*margin-top:7px;*/
+}
+.a{
+    display:flex;
+    list-style:none;
+}
+.h{height:100%;}
+.collapse.show {
+    visibility:visible;
+}
+/*推荐*/
+.my_bg_img{
+    background: url("../img/backimg.png");
+    padding-top:80px;
+}
+.recommend{
+    color:#FF5B0C;
+    text-align:center;
+}
+.recommend{
+    font-size:55px;
+    margin-bottom:100px;
+}
+.food{
+    margin-top:-20px;
+    font-size:40px;
+    margin-bottom:50px;
+    text-align:left;
+    color:#FF5B0C;
+}
+.know{
+    font-size:20px;
+    color:#444;
+    margin-top:-20px;
+    margin-bottom:40px;
+}
+.list-unstyled>li>a>p{
+    color:#000;
+}
+/*推荐下面的图片及文字动态*/
+/*图1*/
+.magnify{
+    transition:transform 1s;
+}
+.magnify:hover{
+    transform:scale(1.3);
+}
+/*文字1*/
+.recommend_text{
+    transition:transform 1s;
+}
+.recommend_text:hover{
+    transform:scale(1.3);
+    color:#FF5B0C;
+}
+/*最新消息*/
+.my_new{
+    background:url("../img/seasonBg.png") no-repeat;
+    height:200px;
+    background-position:center;
+}
+.my_new>p{
+    padding-top:75px;
+    font-size:35px;
+    color:#FF5B0C;
+}
+/*最新消息动态*/
+.news_text{
+    transition:transform 1s;
+}
+.news_text:hover{
+    transform:scale(1.1);
+}
+/*最新消息下的导航*/
+.new_text{
+    color:#000;
+}
+.new_text_bg:hover{
+    background:#FFC107;
+}
+.bc{
+    background:#FFC107;
+}
+/*导航下新闻及图片*/
+.t_color{
+    color:#000;
+    margin-top:5px;
+}
+/*导航图片动态及文字变色*/
+.p_d{
+    transition:1s;
+}
+.p_d:hover{
+    border-radius:50%;
+}
+/*底部线条*/
+.bottom_solid{
+    border:3px solid #FF5B0C;
+    margin-bottom:70px;
+}

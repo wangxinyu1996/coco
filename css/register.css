@@ -1,0 +1,47 @@
+/*背景图*/
+.register_bg_img{
+    background:url("../img/rainbow.png") no-repeat center;
+    background-size:cover;
+    height:1000px;
+    margin-top:100px;
+}
+/*手写媒体查询*/
+@media screen and (max-width:991px) and (min-width:768px){
+    .register_bg_img{
+        margin-top:100px;
+    }
+}
+@media screen and (max-width:991px) and (min-width:768px){
+    .register_user{
+        margin-left:-230px;
+    }
+}
+@media screen and (max-width:767px){
+    .register_user{
+        margin-left:-312px;
+    }
+}
+/*透明背景图*/
+.register_user{
+    background:#fff;
+    opacity:0.7;
+    height:600px;
+    width:500px;
+    border:1px solid transparent;
+    right:-650px;
+    bottom:-210px;
+    border-radius:0.8rem;
+}
+/*字体黑色*/
+.register_user_rgba{
+    color:rgba(0,0,0,1);
+}
+/*标题修饰*/
+.title_fz{
+    font-size:30px;
+}
+/*底部线条*/
+.bottom_solid{
+    border:3px solid #FF5B0C;
+    margin-bottom:70px;
+}

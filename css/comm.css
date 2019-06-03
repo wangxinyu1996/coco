@@ -1,0 +1,19 @@
+/*手写媒体查询，控制iframe的宽高*/
+.my_header,.my_footer{width:100%;}
+@media screen and (min-width:992px){
+    .my_header{height:30rem;}
+    .my_footer{height:32rem;}
+}
+@media screen and (max-width:991px){
+    .my_header{height:5rem;}
+    .my_footer{height:35rem;}
+}
+a{text-decoration:none}
+a:hover{
+    text-decoration:none;
+}
+*{margin:0;padding:0;}
+/*所有样式*/
+#bg{border:1px solid #f00;
+    background:#ff0;
+}
